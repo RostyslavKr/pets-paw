@@ -1,6 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
-
+import { AppBar } from "@/components";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,12 +9,8 @@ export const metadata = {
 
 export default function RootLayout({ children }:any) {
   return (
-    <html lang="en"><body>
-        <div>
-          <Link href="/votes">Votes</Link>
-          <Link href="/breeds">Breeds</Link>
-          <Link href="/gallery">Gallery</Link>
-        </div>
+    <html lang="en"><body className="flex">
+        <AppBar />
         {children}
       </body></html>
       

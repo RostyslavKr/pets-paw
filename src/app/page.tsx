@@ -1,7 +1,9 @@
-
+import { AppBar } from "@/components";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <div>
+      <img src="/girl-and-pet.png" alt="girl-and-pet" />
+    </div>
   );
 }

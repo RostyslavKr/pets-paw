@@ -9,7 +9,7 @@ export default function Breeds() {
     fetch(`https://api.thecatapi.com/v1/breeds`)
       .then((data) => data.json())
       .then(setBreeds);
-  }, []);
+  }, [breed]);
   console.log("data", breeds);
   console.log("breed", breed);
   return (
