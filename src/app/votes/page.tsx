@@ -6,7 +6,7 @@ import {
   writeImageToLS,
   writeUserActionLogsToLS,
   getUserLogsFromLS,
-} from "../(utils)/votesFunc";
+} from "../../utils";
 
 const API_KEY =
   "live_triBeaZCXy9folcyHumtgrawK9UQYoVHYIhcOTXs53Wzylim899aaE4apzA8MKnJ";
